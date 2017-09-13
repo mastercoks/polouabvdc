@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: robotocondensed;
+  src: url('../_fonts/roboto/RobotoCondensed-Regular.ttf');
+}
+
+body {
+  font-family: 'robotocondensed', sans-serif;
+  font-size: 12px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.nav-acessibilidade {
+  height: 30px;
+  line-height: 30px;
+  border-bottom: #bdbdbd 1px solid;
+  box-shadow: 0 0 0 0;
+}
+
+.nav-acessibilidade i.material-icons {
+  height: 30px;
+  line-height: 30px;
+}
+
+.nav-acessibilidade .dropdown-content a {
+  color: gray;
+}
+
+
+.banner {
+  padding: 10px 0px 10px 0px;
+}
+
+.banner-organizacoes {
+  margin: 43px 0 42px 0;
+}
+
+.nav-acessibilidade  a {
+  font-size: 12px;
+}
+
+.alto-contraste {
+
+}
+
+.baixo-contraste {
+
+}
